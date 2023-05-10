@@ -1,0 +1,10 @@
+version: "3"
+
+services: 
+  db:
+    image: mariadb
+    container_name: MARIADB
+    ports: 
+      - 3808:3808
+    environment: 
+      MARIADB_ROOT_PASSWORD: "admin"
